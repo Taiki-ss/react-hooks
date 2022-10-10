@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import UseContext from "./components/UseContext";
+import UseRef from "./components/UseRef";
 import UseStateEffect from "./components/UseStateEffect";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <hr />
       <UseContext />
       <hr />
+      <UseRef />
     </div>
   );
 }
