@@ -4,10 +4,9 @@ import UseContext from "./components/UseContext";
 import UseRef from "./components/UseRef";
 import UseStateEffect from "./components/UseStateEffect";
 import UseReducer from "./components/UseReducer";
+import UseMemo from "./components/UseMemo";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="App">
       <UseStateEffect />
@@ -17,6 +16,8 @@ function App() {
       <UseRef />
       <hr />
       <UseReducer />
+      <hr />
+      <UseMemo />
       <hr />
     </div>
   );
