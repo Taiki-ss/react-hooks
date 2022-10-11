@@ -3,6 +3,7 @@ import "./App.css";
 import UseContext from "./components/UseContext";
 import UseRef from "./components/UseRef";
 import UseStateEffect from "./components/UseStateEffect";
+import UseReducer from "./components/UseReducer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,6 +15,9 @@ function App() {
       <UseContext />
       <hr />
       <UseRef />
+      <hr />
+      <UseReducer />
+      <hr />
     </div>
   );
 }
