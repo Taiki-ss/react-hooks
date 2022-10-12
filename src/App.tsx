@@ -5,6 +5,7 @@ import UseRef from "./components/UseRef";
 import UseStateEffect from "./components/UseStateEffect";
 import UseReducer from "./components/UseReducer";
 import UseMemo from "./components/UseMemo";
+import UseCallback from "./components/UseCallback";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <hr />
       <UseMemo />
       <hr />
+      <UseCallback />
     </div>
   );
 }
